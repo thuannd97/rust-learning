@@ -1,6 +1,9 @@
+// mutable (mut) and imutable variable
+// shadowing
+// variable vs const
 fn main() {
-    let mut x = 5;
+    let x = 5;
     println!("X = {}", x);
-    x = x + 5;
+    let x = x + 5;
     print!("X + 5 = {}", x);
 }
