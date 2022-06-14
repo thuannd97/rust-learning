@@ -34,7 +34,5 @@ fn main() {
                 break;
             }
         }
-
     }
-    
 }
