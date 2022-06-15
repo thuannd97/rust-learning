@@ -28,7 +28,7 @@ fn label_loop() -> (){
     println!("End count = {}", count);
 }
 
-// returning values from loops
+// returning values from loops: using break to return value from loops
 fn returning() -> i32{
     let mut counter = 0;
     return loop{
